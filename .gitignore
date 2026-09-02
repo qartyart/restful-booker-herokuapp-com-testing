@@ -1,0 +1,15 @@
+node_modules/
+package-lock.json
+
+# Служебные файлы IDE
+.idea/
+.vscode/
+
+# Реальное окружение Postman не публикуется — в репозитории лежит только образец.
+postman/environment.json
+
+# Отчёты прогона: html вложен в репозиторий как свидетельство, json — рабочий артефакт.
+reports/newman-report.json
+reports/*.tmp
+
+.DS_Store
